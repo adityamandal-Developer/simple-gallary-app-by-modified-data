@@ -59,7 +59,7 @@ export default function Home() {
           )}
         </>
       )}
-      {error && <p>Oops! Something went wrong</p>}
+      {error && <p>Oops! Something went wrong {error}</p>}
     </div>
   );
 }
